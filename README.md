@@ -28,14 +28,22 @@ User → ALB (Public Subnet) → Target Group → EC2 (Private Subnet :1337) →
 
 Outcome
 
-Successfully designed a custom VPC with public and private subnets using Terraform
+-Successfully designed a custom VPC with public and private subnets using Terraform
+
 -Deployed an Application Load Balancer across two public subnets for high availability
+
 -Provisioned a private EC2 instance with no public IP for secure application hosting
+
 -Configured a NAT Gateway to allow the private EC2 to pull Docker images from the internet
+
 -Deployed the Strapi application inside a Docker container on the private EC2
+
 -Configured Security Groups to allow traffic only from ALB to EC2 on the application port
+
 -Implemented proper Target Group health checks to ensure application availability
+
 -Exposed the application securely via the Load Balancer DNS without exposing the EC2 directly
+
 -Managed environment configuration using Terraform variables and modules
 
 
