@@ -1,5 +1,6 @@
 *Objective*
 
+*Creating AWS Infrastructure for Strapi App with Terraform and Docker*
 
 Provision a secure AWS infrastructure using Terraform where a Strapi application runs inside Docker on a private EC2 instance, accessible only through an Application Load Balancer placed in public subnets, with outbound internet via a NAT Gateway.
 
@@ -8,7 +9,7 @@ Provision a secure AWS infrastructure using Terraform where a Strapi application
 
 
 
-Loom video : https://www.loom.com/share/ca540acc9c494ecd92ed3e3e4501dc6d
+Loom video : https://www.loom.com/share/a00c84fb3a314f23baee2f1bd56d675b
 
 *Terraform module structure*
 
