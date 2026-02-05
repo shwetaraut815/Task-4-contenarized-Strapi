@@ -1,4 +1,6 @@
 *Objective*
+
+
 Provision a secure AWS infrastructure using Terraform where a Strapi application runs inside Docker on a private EC2 instance, accessible only through an Application Load Balancer placed in public subnets, with outbound internet via a NAT Gateway.
 
 <img width="1536" height="1024" alt="task-4-diagram" src="https://github.com/user-attachments/assets/26d4dbae-201e-4358-ae5f-0ce3ac7878e7" />
