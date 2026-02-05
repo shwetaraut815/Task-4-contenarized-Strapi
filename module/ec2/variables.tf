@@ -1,6 +1,12 @@
-variable "subnet_id" {
+variable "private_subnet_id" {
 
 }
-variable "sg_id" {
+variable "ec2_sg" {
     
 }
+variable "instance_type" {
+    
+}
+
+
+

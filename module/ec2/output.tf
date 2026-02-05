@@ -19,3 +19,7 @@ output "public_key_openssh" {
 #   value     = tls_private_key.devops_key.private_key_pem
 #   sensitive = true
 # }
+
+output "ec2_id" {
+  value = aws_instance.devops.id
+}
