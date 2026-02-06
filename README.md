@@ -15,6 +15,35 @@ Loom video : https://www.loom.com/share/a00c84fb3a314f23baee2f1bd56d675b
 
 <img width="434" height="741" alt="image" src="https://github.com/user-attachments/assets/cfab1200-4810-4ae0-a228-47709126f988" />
 
+<img width="1570" height="596" alt="image" src="https://github.com/user-attachments/assets/7a79837e-f37f-4e55-a3cf-b31bb7045fd6" />
+
+<img width="995" height="870" alt="image" src="https://github.com/user-attachments/assets/e4eab05f-d9b2-480e-befb-9cbfce1a42db" />
+
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm install
+RUN npm run build
+
+EXPOSE 1337
+
+CMD ["npm", "run", "develop"]
+
+
+
+
+<img width="1881" height="538" alt="image" src="https://github.com/user-attachments/assets/97513b7a-44e1-452b-a24b-522f9fbc8267" />
+
+<img width="1897" height="464" alt="image" src="https://github.com/user-attachments/assets/7dde621e-8ad7-4405-9717-e541206fb3c6" />
+
+<img width="1910" height="368" alt="image" src="https://github.com/user-attachments/assets/248859ed-432a-49e5-a694-467e327527d8" />
+
+
+
+
 
 Traffic Flow
 
